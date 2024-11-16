@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    height: 100px;
+    background-color: #eef5ff;
+    align-items: center;
+    padding: 0 150px;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    width: 20px;
+    display: flex;
+}
+.logo image{
+    height: 50px;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+}
+
+.menu-bar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.cta-btn {
+    background: #fca61f;
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+.container{
+    display: flex;
+    background-color: #eef5ff;
+    overflow: hidden;
+
+}
+
+.tex-area{
+    height: 700px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+
+}
+
+.text h2 {
+    color: #3f396d;
+    font-size: 52px;
+    margin: 10px 0px;
+}
+
+
+.text h1 {
+    color: #6f34fe;
+    font-size: 85px;
+    margin: 10px 0px;
+    letter-spacing: -7px;
+}
+
+img.kajoo {
+    position: absolute;
+    top:200px;
+    right: 35%;
+    height: 50px;
+    width: auto;
+   
+}
+
+.text p{
+    color:#7d7789;
+    font-size: 22px;
+    margin: 20px 0px;
+    letter-spacing: -1px;
+}
+
+
+
+.image-area{
+    height: 700px;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+
+}
+
+.image-area img{
+    height: 150%;
+
+}
